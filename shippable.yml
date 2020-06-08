@@ -1,5 +1,5 @@
 - name: Install Datadog Agent on servers in AWS
-  hosts: tag_NAME_Bastion_Host #tag_NAME_WIN2016 #tag_datadog_yes
+  hosts: #tag_NAME_Bastion_Host #tag_NAME_WIN2016 #tag_datadog_yes
   become: yes
   user: root #ec2-user  #Use the default login for the AWS image. Here we are using a Centos image.
 #  roles:
