@@ -2,8 +2,8 @@
   hosts: Bastion Host #tag_datadog_yes
   become: yes
   user: ec2-user  #Use the default login for the AWS image. Here we are using a Centos image.
-  roles:
-    - { role: Datadog.datadog, become: yes }
+#  roles:
+#    - { role: Datadog.datadog, become: yes }
   vars:
     datadog_api_key: AKIA3LKRFPI7U27LKKWI
     datadog_config:
